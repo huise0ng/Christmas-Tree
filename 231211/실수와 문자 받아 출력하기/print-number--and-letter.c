@@ -1,9 +1,25 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-    char a[1000];
-    char b, c;
-    scanf("%s\n%c\n%c",&a,&b,&c);
-    printf("%s\n.1%c\n.1%c",a,b,c);
+    char c;
+    double a, b;
+
+    // 문자 c 입력 받기
+    scanf("%c", &c);
+
+    // 실수 a, b 입력 받기
+    scanf("%lf", &a);
+    scanf("%lf", &b);
+
+    // 문자 c 출력
+    printf("%c\n", c);
+
+    // 반올림한 실수 a 출력
+    printf("%.2lf\n", round(a * 100) / 100);
+
+    // 반올림한 실수 b 출력
+    printf("%.2lf\n", round(b * 100) / 100);
+
     return 0;
 }
