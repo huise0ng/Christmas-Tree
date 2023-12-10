@@ -4,9 +4,7 @@ int main() {
     int a = 5;
     int b = 6;
     int c = 7;
-    b = a;
-    c = b;
-    a = c;
-    printf("%d\n%d\n%d",a,b,c);
+    
+    printf("%d\n%d\n%d",c,b,a);
     return 0;
 }
