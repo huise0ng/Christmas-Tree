@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int hour, minute;
-
-    scanf("%d:%d", &hour, &minute);
-
-    hour = (hour + 1) % 24;
-
-    printf("%02d:%02d\n", 0hour, minute);
-
+    // 변수 선언 및 입력
+    int h, m;
+    scanf("%d:%d", &h, &m);
+    
+    // 출력
+    printf("%d:%d", h + 1, m);
     return 0;
 }
