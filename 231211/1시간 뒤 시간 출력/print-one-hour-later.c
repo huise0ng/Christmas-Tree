@@ -7,7 +7,7 @@ int main() {
 
     hour = (hour + 1) % 24;
 
-    printf("%d:%02d\n", hour, minute);
+    printf("%02d:%02d\n", hour, minute);
 
     return 0;
 }
