@@ -7,6 +7,6 @@ int main() {
     int d = a-b;
     int e = a/b;
     int f = a % b;
-    printf("%d\%d\n%d\n%d",c,d,e,f);
+    printf("%d\n%d\n%d\n%d",c,d,e,f);
     return 0;
 }
