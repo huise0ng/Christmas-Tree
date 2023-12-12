@@ -6,7 +6,7 @@ int main() {
     int b = a*a;
     printf("%d",b);
 
-    if(a<5){
+    if(a<=5){
         printf("tiny");
     }
     return 0;
