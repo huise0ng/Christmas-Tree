@@ -1,6 +1,11 @@
-#include <stdio.h>
+// 변수 선언
+let i = 10;
+let result = "";
 
-int main() {
-    // 여기에 코드를 작성해주세요.
-    return 0;
+while (i <= 26) {
+    result += i + " ";
+    i++;
 }
+
+// 출력
+console.log(result);
